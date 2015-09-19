@@ -1,0 +1,1 @@
+var wageClock = angular.module('wageClock', ['ngRoute', 'ngCookies', 'timeKeeper']);

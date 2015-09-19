@@ -1,0 +1,68 @@
+/**
+ *	1. Body
+ *	2. Header
+ *	3. Start
+ */
+ 
+/*******************************
+ * Body	  					   *
+ *******************************/
+   
+body {
+	background:#E6E6E6;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*******************************
+ * Header  					   *
+ *******************************/
+ 
+#masthead {
+	background:#010101;
+	border-bottom: #63ADE6 solid 3px;
+	height: 60px;
+	padding: 13px 0;
+}
+
+#masthead .navbar-brand {
+    color: #fff;
+    float: none;
+    height: auto;
+    padding: 0;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height:1.5em;
+    margin: 0;
+}
+
+#add-clock {
+	background:transparent;
+	border:none;
+	color:#fff;
+	font-size: 1.8em;
+	margin-top: 1px;
+}
+
+#masthead a,
+#masthead a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+/*******************************
+ * Start  					   *
+ *******************************/
+#enter-wage {
+	margin:0 auto;
+	float: none;
+	position:relative;
+	text-align: center;
+}
+
+#enter-wage h2 {
+	margin-bottom:.5em;
+}
+
+#enter-wage .start-clock {
+	background:#101010;
+	border:none;
+}

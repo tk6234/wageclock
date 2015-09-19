@@ -1,0 +1,10 @@
+<form class="form-inline" name="setwage" ng-submit="punchIn()" ng-controller="timeController">
+	<input class="form-control" type="text" name="wage" 
+    	ng-model="wage" 
+        ng-required="true"  
+        ng-pattern="/^\d{0,9}(\.\d{1,9})?$/"
+        value="" />   
+    <button class="btn btn-primary start-clock">Start</button>
+    <p ng-show="setwage.wage.$error.required" class="help-block">Enter Wage Above</p>
+    <p ng-show="setwage.wage.$error.pattern" class="help-block">Not valid number!</p>    
+</form>

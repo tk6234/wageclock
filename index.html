@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app="wageClock">
+<head>
+<link rel="stylesheet" href="app/assets/lib/css/bootstrap.css" />
+<link rel="stylesheet" href="app/assets/css/style.css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700,900italic' rel='stylesheet' type='text/css'>
+
+<!-- Lib -->
+<script src="app/assets/lib/js/jquery.js"></script>
+<script src="app/assets/lib/js/bootstrap.min.js"></script>
+<script src="app/assets/lib/js/angular.min.js"></script>
+<script src="app/assets/lib/js/angular-router.js"></script>
+<script src="app/assets/lib/js/angular-cookies.js"></script>
+
+<!-- App -->
+<script src="app/app.module.js"></script>
+<script src="app/app.route.js"></script>
+
+<!-- Components -->
+<script src="app/components/home/homeController.js"></script>
+<script src="app/components/clock/clockController.js"></script>
+<script src="app/components/timekeeper/timeController.js"></script>
+
+<!-- Wage Clock -->
+<script src="app/assets/lib/js/wage.js"></script>
+<script src="app/assets/lib/js/clock.js"></script>
+<script src="app/assets/lib/js/abstrc.js"></script>
+
+<script src="app/assets/js/scripts.js"></script>
+<script src="app/assets/js/app.js"></script>
+</head>
+
+<title>Wage Clock</title>
+<body>
+<header id="masthead" role="banner">
+	<div class="container">
+    	<div class="col-md-3">
+        	<h1 class="navbar-brand" role="logo"><a href="#/">Wage Clock</a></h1>
+        </div>
+        <div class="col-md-9">
+        	<a id="add-clock" class="pull-right" href="#/clock" data-toggle="tooltip" data-placement="bottom" title="Add Clock" role="button">+</a>
+        </div>
+    </div>
+</header>
+
+<main ng-view></main>
+
+
+</body>
+</html>
